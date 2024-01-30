@@ -15,9 +15,9 @@
         android:scaleType="fitXY"
         android:src="@drawable/day9"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:layout_editor_absoluteX="0dp" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -26,7 +26,7 @@
         android:padding="8dp"
         android:text="Dhaka,Bangladesh"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.558"
@@ -59,7 +59,7 @@
         android:textSize="25sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/progressBar2"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/progressBar2"
         app:layout_constraintStart_toStartOf="@+id/progressBar2"
         app:layout_constraintTop_toTopOf="@+id/progressBar2" />
 
@@ -73,12 +73,12 @@
         android:textColor="@color/white"
         android:textSize="25sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="@+id/progressBar4"
-        app:layout_constraintEnd_toEndOf="@+id/progressBar4"
-        app:layout_constraintHorizontal_bias="0.515"
-        app:layout_constraintStart_toStartOf="@+id/progressBar4"
+        app:layout_constraintBottom_toBottomOf="@+id/progressBar5"
+        app:layout_constraintEnd_toEndOf="@+id/progressBar5"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar"
-        app:layout_constraintVertical_bias="0.176" />
+        app:layout_constraintVertical_bias="0.415" />
 
     <TextView
         android:id="@+id/o3"
@@ -107,8 +107,10 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/progressBar5"
+        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="@+id/progressBar5"
-        app:layout_constraintTop_toTopOf="@+id/progressBar4" />
+        app:layout_constraintTop_toTopOf="@+id/progressBar4"
+        app:layout_constraintVertical_bias="0.401" />
 
     <TextView
         android:id="@+id/pm2_5"
@@ -130,7 +132,7 @@
         android:id="@+id/textview2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="44dp"
         android:padding="8dp"
         android:text="AQI =1"
         android:textColor="@color/white"
@@ -149,10 +151,10 @@
         android:padding="8dp"
         android:text="Air Quality Index Good"
         android:textColor="@color/white"
-        android:textSize="30sp"
+        android:textSize="22sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2" />
 
@@ -186,7 +188,7 @@
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toBottomOf="@+id/progressBar3"
-        app:layout_constraintVertical_bias="0.963"
+        app:layout_constraintVertical_bias="0.275"
         tools:progress="40" />
 
     <ProgressBar
@@ -203,7 +205,7 @@
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toBottomOf="@+id/progressBar5"
-        app:layout_constraintVertical_bias="0.785"
+        app:layout_constraintVertical_bias="0.275"
         tools:progress="40" />
 
     <ProgressBar
@@ -219,7 +221,7 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/progressBar6"
-        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintVertical_bias="0.022"
         tools:progress="40" />
 
     <ProgressBar
@@ -235,7 +237,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/co"
-        app:layout_constraintVertical_bias="0.253"
+        app:layout_constraintVertical_bias="0.185"
         tools:progress="40" />
 
     <ProgressBar
