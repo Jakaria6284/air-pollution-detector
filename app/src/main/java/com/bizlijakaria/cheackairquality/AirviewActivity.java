@@ -63,11 +63,11 @@ public class AirviewActivity extends AppCompatActivity {
         AIECondition=findViewById(R.id.textView5);
         Location=findViewById(R.id.textView);
         CoprogressBar1 = findViewById(R.id.progressBar);
-        Pm25progressBar2 = findViewById(R.id.progressBar2);
-        No2progressBar3 = findViewById(R.id.progressBar3);
-        O3progressBar4 = findViewById(R.id.progressBar4);
-        so2progressBar5 = findViewById(R.id.progressBar5);
-        NoprogressBar6 = findViewById(R.id.progressBar6);
+        Pm25progressBar2 = findViewById(R.id.progressBar6);
+        No2progressBar3 = findViewById(R.id.progressBar5);
+        O3progressBar4 = findViewById(R.id.progressBar3);
+        so2progressBar5 = findViewById(R.id.progressBar4);
+        NoprogressBar6 = findViewById(R.id.progressBar2);
         CoprogressBar1.setMax(2000);
         Pm25progressBar2.setMax(50);
         No2progressBar3.setMax(60);
